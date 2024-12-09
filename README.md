@@ -4,16 +4,18 @@ Football Management adalah aplikasi REST API dimana ini hanya dibuat untuk melak
 
 ## Instalasi
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+1. Jalankan composer install
+```
+composer install
+```
 
-## Contributing
+2. Duplikat .env.example dan ubah namanya jadi .env, contoh seperti berikut ini
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![alt text](image.png)
 
-## Security Vulnerabilities
+## Cara menjalankan aplikasi
 
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Tuliskan perintah berikut pada terminal
+```
+php -S localhost:8000 -t public
+```
